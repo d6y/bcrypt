@@ -27,5 +27,6 @@ lazy val scalatest = Seq(
 )
 
 lazy val bcrypt = Seq(
-  "org.mindrot" % "jbcrypt" % "0.4"
+  "org.mindrot" % "jbcrypt" % "0.4",
+  "commons-codec" % "commons-codec" % "1.10"
 )
